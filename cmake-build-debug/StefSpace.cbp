@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StefSpace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\MinGW\;CMake Files\..\..\..\..\MinGW\lib\;CMake Files\..\..\..\..\MinGW\lib\cmake\;CMake Files\..\..\..\..\MinGW\lib\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StefSpace">
+				<Option output="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/StefSpace.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 StefSpace"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StefSpace/fast">
+				<Option output="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/StefSpace.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 StefSpace/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Controllers/AbstractController.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Controllers/AbstractController.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Controllers/ControllerSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Controllers/ControllerSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/BonusSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/BonusSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/BulletSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/BulletSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/EnemySDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/EnemySDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/GameOverSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/GameOverSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/PlayerSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entities_SDL/PlayerSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Bonus.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Bonus.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Bullet.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Bullet.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Enemy.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Enemy.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/EntityAbstract.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/EntityAbstract.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/GameOver.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/GameOver.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Player.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Entitites_Abstract/Player.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Factories/AbstractFactory.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Factories/AbstractFactory.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Factories/FactorySDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Factories/FactorySDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/GameLogic/Game.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/GameLogic/Game.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/AbstractHandler.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/AbstractHandler.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/HandlerSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/HandlerSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/main.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/../../../../MinGW/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\MinGW\lib\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

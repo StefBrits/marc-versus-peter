@@ -1,0 +1,3 @@
+D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir
+D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/rebuild_cache.dir
