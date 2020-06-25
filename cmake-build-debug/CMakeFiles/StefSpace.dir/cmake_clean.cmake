@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj"
   "CMakeFiles/StefSpace.dir/Handlers/AbstractHandler.cpp.obj"
   "CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj"
+  "CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj"
+  "CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj"
   "CMakeFiles/StefSpace.dir/main.cpp.obj"
   "StefSpace.exe"
   "StefSpace.exe.manifest"

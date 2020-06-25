@@ -14,12 +14,12 @@ gameLogic::Game::Game(gameLogic::AbstractFactory* abstractFactory) {
 //Game loop that calls
 void gameLogic::Game::run() {
     initialize();
-    PlaySound("..//files//matrix.wav",NULL,SND_FILENAME | SND_ASYNC);
+    //PlaySound("..//files//matrix.wav",NULL,SND_FILENAME | SND_ASYNC);
+    soundHandler->playMusic(songStory);
     while(isGameRunning) {
         //To make sure the framerate is always 60 Hz
         frameStart = std::chrono::duration_cast<std::chrono::milliseconds>(
                 std::chrono::system_clock::now().time_since_epoch()).count();
-
         //! game logic start
         handler->clear();           //clear the screen that was rendered on the last frame
         handler->handleEvents();    //call event handler for input from keyboard
@@ -27,7 +27,6 @@ void gameLogic::Game::run() {
             e->draw();
             e->update();
         }
-
         if(firstRun) {
 
             isWinning = 2;
@@ -52,7 +51,8 @@ void gameLogic::Game::run() {
                 i=0;
                 firstRun=false;
                 gameOvers.at(0)->setIsExisting(false);
-                PlaySound("..//files//deepMindedSong.wav",NULL,SND_FILENAME | SND_ASYNC);
+                //PlaySound("..//files//deepMindedSong.wav",NULL,SND_FILENAME | SND_ASYNC);
+                soundHandler->playMusic(songGame);
                 isWinning = 1;
             }
             i++;
@@ -72,11 +72,13 @@ void gameLogic::Game::run() {
                     e->setIsExisting(0);
                 }
                 if(i==1 && isWinning==1) {
-                    PlaySound("..//files//winner.wav",NULL,SND_FILENAME | SND_ASYNC);
+                    //PlaySound("..//files//winner.wav",NULL,SND_FILENAME | SND_ASYNC);
+                    soundHandler->playMusic(songWinner);
                     makePeter(1);
                 }
                 if(i==1 && isWinning==0) {
-                    PlaySound("..//files//loser.wav",NULL,SND_FILENAME | SND_ASYNC);
+                    //PlaySound("..//files//loser.wav",NULL,SND_FILENAME | SND_ASYNC);
+                    soundHandler->playMusic(songLoser);
                 }
                 if((i==1600 && isWinning==1) || (i==300 && isWinning==0)){
                     //wait for the endscreen and then restart
@@ -111,6 +113,9 @@ void gameLogic::Game::initialize() {
     counter = 0;
     controller = factory->createController();
     handler = factory->createHandler(controller);
+    soundHandler = factory->createSoundHandler();
+    soundHandler->init();
+    soundHandler->loadSounds("..//files//deepMindedSong.wav","..//files//piew.wav","..//files//matrix.wav","..//files//winner.wav","..//files//loser.wav","..//files//bluh.wav", "..//files//bonus.wav");
     handler->initialize("Awesome Space Invader Version 1.0", xBound, yBound);
     makePeter(0);    //make player - the unstoppable force - 'Peter' HELLincxkxc
     for(int numberOfMarc=0;numberOfMarc<marcsPerRow;numberOfMarc++) { //make some Marc - immovable object - keulemans
@@ -118,8 +123,6 @@ void gameLogic::Game::initialize() {
         makeMarc((numberOfMarc*170)+82,170);
     }
 }
-
-
 
 void gameLogic::Game::makePeter(bool isCool) {
     gameLogic::Player* peter = factory->createPlayer(xBound,yBound,controller,handler,isCool);
@@ -154,6 +157,7 @@ void gameLogic::Game::hiveMindMarc() {
                 enemy->setDirection(!enemy->getDirection());
                 enemy->setyCoordinate(enemy->getyCoordinate()+(enemy->getHeight()/10));
             }
+
         }
 
         //shooting
@@ -165,6 +169,7 @@ void gameLogic::Game::hiveMindMarc() {
             entities.emplace_back(bullet);
             bullets.emplace_back(bullet);
             e->setIsShooting(true);
+            soundHandler->marcSound();
         }
     }
 }
@@ -178,6 +183,7 @@ void gameLogic::Game::oneManKillingMachinePeter() {
             Bullet* bullet = factory->createBullet(players.at(0)->getxCoordinate()+(players.at(0)->getWidth()/2),players.at(0)->getyCoordinate(),xBound,yBound,true,handler);
             entities.emplace_back(bullet);
             bullets.emplace_back(bullet);
+            soundHandler->playerShot();
             counter = 30;
         }
         if(counter > 0) {
@@ -233,6 +239,7 @@ void gameLogic::Game::collisionDetection() {
                 //b->deleteEntity();
                 a->deleteEntity();
                 score += a->getScoreWorth();
+                soundHandler->bonusSound();
             }
         }
     }
@@ -337,7 +344,8 @@ void gameLogic::Game::clearScreen() {
 }
 
 void gameLogic::Game::restart() {
-    PlaySound("..//files//deepMindedSong.wav",NULL,SND_FILENAME | SND_ASYNC);
+    //PlaySound("..//files//deepMindedSong.wav",NULL,SND_FILENAME | SND_ASYNC);
+    soundHandler->playMusic(songGame);
     clearScreen();
     handler->setIsOnce(1);
     gameOvers.clear();

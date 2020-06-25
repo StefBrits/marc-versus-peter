@@ -188,6 +188,18 @@
 		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/HandlerSDL.h">
 			<Option target="StefSpace"/>
 		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Music/AbstractSoundHandler.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Music/AbstractSoundHandler.h">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Music/SoundHandlerSDL.cpp">
+			<Option target="StefSpace"/>
+		</Unit>
+		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Music/SoundHandlerSDL.h">
+			<Option target="StefSpace"/>
+		</Unit>
 		<Unit filename="D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/main.cpp">
 			<Option target="StefSpace"/>
 		</Unit>

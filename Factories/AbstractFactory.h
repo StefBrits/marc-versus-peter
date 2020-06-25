@@ -8,6 +8,7 @@
 #include "../Controllers/AbstractController.h"
 #include "../Handlers/AbstractHandler.h"
 #include "../Entitites_Abstract/GameOver.h"
+#include "../Music/AbstractSoundHandler.h"
 
 namespace gameLogic {
     class AbstractFactory {
@@ -20,6 +21,7 @@ namespace gameLogic {
         virtual AbstractController* createController() = 0;
         virtual AbstractHandler* createHandler(gameLogic::AbstractController* abstractController) = 0;
         virtual GameOver* createGameOver(int xBound, int yBound, gameLogic::AbstractHandler* abstractHandler, int isWin) = 0;
+        virtual AbstractSoundHandler* createSoundHandler() =0;
         virtual ~AbstractFactory() = default;
     };
 

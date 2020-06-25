@@ -17,7 +17,7 @@ namespace gameLogic {
         virtual void pressUp(bool isPressed) = 0;
         virtual void pressDown(bool isPressed) = 0;
         virtual void pressShoot(bool isPressed) = 0;
-        bool isLeft,isRight,isDown,isUp,isShoot;
+
     };
 }
 #endif //STEFSPACE_ABSTRACTCONTROLLER_H

@@ -303,6 +303,32 @@ CMakeFiles/StefSpace.dir/Entities_SDL/GameOverSDL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StefSpace.dir/Entities_SDL/GameOverSDL.cpp.s"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Entities_SDL\GameOverSDL.cpp -o CMakeFiles\StefSpace.dir\Entities_SDL\GameOverSDL.cpp.s
 
+CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj: CMakeFiles/StefSpace.dir/flags.make
+CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj: ../Music/AbstractSoundHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\StefSpace.dir\Music\AbstractSoundHandler.cpp.obj -c D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Music\AbstractSoundHandler.cpp
+
+CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Music\AbstractSoundHandler.cpp > CMakeFiles\StefSpace.dir\Music\AbstractSoundHandler.cpp.i
+
+CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Music\AbstractSoundHandler.cpp -o CMakeFiles\StefSpace.dir\Music\AbstractSoundHandler.cpp.s
+
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj: CMakeFiles/StefSpace.dir/flags.make
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj: ../Music/SoundHandlerSDL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\StefSpace.dir\Music\SoundHandlerSDL.cpp.obj -c D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Music\SoundHandlerSDL.cpp
+
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Music\SoundHandlerSDL.cpp > CMakeFiles\StefSpace.dir\Music\SoundHandlerSDL.cpp.i
+
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\Music\SoundHandlerSDL.cpp -o CMakeFiles\StefSpace.dir\Music\SoundHandlerSDL.cpp.s
+
 # Object files for target StefSpace
 StefSpace_OBJECTS = \
 "CMakeFiles/StefSpace.dir/main.cpp.obj" \
@@ -323,7 +349,9 @@ StefSpace_OBJECTS = \
 "CMakeFiles/StefSpace.dir/Handlers/AbstractHandler.cpp.obj" \
 "CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj" \
 "CMakeFiles/StefSpace.dir/Entitites_Abstract/GameOver.cpp.obj" \
-"CMakeFiles/StefSpace.dir/Entities_SDL/GameOverSDL.cpp.obj"
+"CMakeFiles/StefSpace.dir/Entities_SDL/GameOverSDL.cpp.obj" \
+"CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj" \
+"CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj"
 
 # External object files for target StefSpace
 StefSpace_EXTERNAL_OBJECTS =
@@ -347,11 +375,13 @@ StefSpace.exe: CMakeFiles/StefSpace.dir/Handlers/AbstractHandler.cpp.obj
 StefSpace.exe: CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj
 StefSpace.exe: CMakeFiles/StefSpace.dir/Entitites_Abstract/GameOver.cpp.obj
 StefSpace.exe: CMakeFiles/StefSpace.dir/Entities_SDL/GameOverSDL.cpp.obj
+StefSpace.exe: CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj
+StefSpace.exe: CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj
 StefSpace.exe: CMakeFiles/StefSpace.dir/build.make
 StefSpace.exe: CMakeFiles/StefSpace.dir/linklibs.rsp
 StefSpace.exe: CMakeFiles/StefSpace.dir/objects1.rsp
 StefSpace.exe: CMakeFiles/StefSpace.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable StefSpace.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\School\derde_jaar\AdvProgramTechnieken\StefSpace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable StefSpace.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StefSpace.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

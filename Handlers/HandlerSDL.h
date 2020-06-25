@@ -21,7 +21,6 @@ class HandlerSDL : public gameLogic::AbstractHandler{
     SDL_Window* window;
     gameLogic::AbstractController* controller;
     SDL_Texture* textureA{};
-    SDL_Texture* textureStart{};
 
 
 public:

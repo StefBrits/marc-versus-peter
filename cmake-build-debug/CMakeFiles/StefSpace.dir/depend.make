@@ -87,6 +87,7 @@ CMakeFiles/StefSpace.dir/Factories/AbstractFactory.cpp.obj: ../Entitites_Abstrac
 CMakeFiles/StefSpace.dir/Factories/AbstractFactory.cpp.obj: ../Factories/AbstractFactory.cpp
 CMakeFiles/StefSpace.dir/Factories/AbstractFactory.cpp.obj: ../Factories/AbstractFactory.h
 CMakeFiles/StefSpace.dir/Factories/AbstractFactory.cpp.obj: ../Handlers/AbstractHandler.h
+CMakeFiles/StefSpace.dir/Factories/AbstractFactory.cpp.obj: ../Music/AbstractSoundHandler.h
 
 CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Controllers/AbstractController.h
 CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Controllers/ControllerSDL.h
@@ -106,6 +107,8 @@ CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Factories/FactorySDL.c
 CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Factories/FactorySDL.h
 CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Handlers/AbstractHandler.h
 CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Handlers/HandlerSDL.h
+CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Music/AbstractSoundHandler.h
+CMakeFiles/StefSpace.dir/Factories/FactorySDL.cpp.obj: ../Music/SoundHandlerSDL.h
 
 CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../Controllers/AbstractController.h
 CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../Entitites_Abstract/Bonus.h
@@ -119,6 +122,7 @@ CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../Factories/FactorySDL.h
 CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../GameLogic/Game.cpp
 CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../GameLogic/Game.h
 CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../Handlers/AbstractHandler.h
+CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj: ../Music/AbstractSoundHandler.h
 
 CMakeFiles/StefSpace.dir/Handlers/AbstractHandler.cpp.obj: ../Handlers/AbstractHandler.cpp
 CMakeFiles/StefSpace.dir/Handlers/AbstractHandler.cpp.obj: ../Handlers/AbstractHandler.h
@@ -128,6 +132,13 @@ CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj: ../Controllers/ControllerS
 CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj: ../Handlers/AbstractHandler.h
 CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj: ../Handlers/HandlerSDL.cpp
 CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj: ../Handlers/HandlerSDL.h
+
+CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj: ../Music/AbstractSoundHandler.cpp
+CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj: ../Music/AbstractSoundHandler.h
+
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj: ../Music/AbstractSoundHandler.h
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj: ../Music/SoundHandlerSDL.cpp
+CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj: ../Music/SoundHandlerSDL.h
 
 CMakeFiles/StefSpace.dir/main.cpp.obj: ../Controllers/AbstractController.h
 CMakeFiles/StefSpace.dir/main.cpp.obj: ../Entitites_Abstract/Bonus.h
@@ -140,5 +151,6 @@ CMakeFiles/StefSpace.dir/main.cpp.obj: ../Factories/AbstractFactory.h
 CMakeFiles/StefSpace.dir/main.cpp.obj: ../Factories/FactorySDL.h
 CMakeFiles/StefSpace.dir/main.cpp.obj: ../GameLogic/Game.h
 CMakeFiles/StefSpace.dir/main.cpp.obj: ../Handlers/AbstractHandler.h
+CMakeFiles/StefSpace.dir/main.cpp.obj: ../Music/AbstractSoundHandler.h
 CMakeFiles/StefSpace.dir/main.cpp.obj: ../main.cpp
 

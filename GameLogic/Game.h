@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "../Factories/AbstractFactory.h"
+#include "../Music/AbstractSoundHandler.h"
 
 namespace gameLogic {
     class Game {
@@ -25,8 +26,13 @@ namespace gameLogic {
         AbstractFactory* factory;
         AbstractController* controller;
         AbstractHandler* handler;
+        AbstractSoundHandler* soundHandler;
         int marcsPerRow=2;
         bool firstRun=true;
+        int songStory = 1;
+        int songGame = 2;
+        int songWinner = 3;
+        int songLoser = 4;
 
     public:
         void initialize();

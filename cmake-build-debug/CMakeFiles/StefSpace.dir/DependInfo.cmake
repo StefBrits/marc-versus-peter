@@ -22,6 +22,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/GameLogic/Game.cpp" "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir/GameLogic/Game.cpp.obj"
   "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/AbstractHandler.cpp" "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir/Handlers/AbstractHandler.cpp.obj"
   "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Handlers/HandlerSDL.cpp" "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.obj"
+  "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Music/AbstractSoundHandler.cpp" "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj"
+  "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/Music/SoundHandlerSDL.cpp" "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj"
   "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/main.cpp" "D:/School/derde_jaar/AdvProgramTechnieken/StefSpace/cmake-build-debug/CMakeFiles/StefSpace.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

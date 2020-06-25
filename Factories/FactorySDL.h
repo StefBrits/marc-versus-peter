@@ -15,6 +15,7 @@ namespace SDL {
         gameLogic::GameOver *createGameOver(int xBound,int yBound, gameLogic::AbstractHandler *abstractHandler, int isWin) override;
         gameLogic::AbstractController* createController() override;
         gameLogic::AbstractHandler* createHandler(gameLogic::AbstractController* abstractController) override;
+        gameLogic::AbstractSoundHandler* createSoundHandler() override ;
         ~FactorySDL() = default;
     };
 }

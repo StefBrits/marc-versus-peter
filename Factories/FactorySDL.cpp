@@ -7,6 +7,7 @@
 #include "../Entities_SDL/BulletSDL.h"
 #include "../Entitites_Abstract/GameOver.h"
 #include "../Entities_SDL/GameOverSDL.h"
+#include "../Music/SoundHandlerSDL.h"
 
 gameLogic::Enemy *SDL::FactorySDL::createEnemy(int xCoordinate, int yCoordinate, int xBound, int yBound, gameLogic::AbstractHandler* abstractHandler) {
     return new SDL::EnemySDL(xCoordinate, yCoordinate, 1, 165, 175, xBound, yBound, true, 20, 0, abstractHandler);
@@ -37,6 +38,10 @@ gameLogic::AbstractHandler *SDL::FactorySDL::createHandler(gameLogic::AbstractCo
 gameLogic::GameOver *
 SDL::FactorySDL::createGameOver(int xBound, int yBound, gameLogic::AbstractHandler *abstractHandler, int isWin) {
     return new SDL::GameOverSDL(xBound/4, yBound/4, 0, 576, 425, xBound, yBound, true, xBound, yBound, abstractHandler, isWin);
+}
+
+gameLogic::AbstractSoundHandler *SDL::FactorySDL::createSoundHandler() {
+    return new SDL::SoundHandlerSDL();
 }
 
 

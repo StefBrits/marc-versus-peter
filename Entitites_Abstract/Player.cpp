@@ -22,6 +22,7 @@ void gameLogic::Player::update() {
         setxCoordinate(getxCoordinate()+(1*getSpeed()));
 
     }
+
 }
 
 bool gameLogic::Player::getIsShooting() {

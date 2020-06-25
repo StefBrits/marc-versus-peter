@@ -49,7 +49,7 @@ void SDL::HandlerSDL::clear() {
         tempSurfaceA = IMG_Load(backGroundA.c_str());
         tempSurfaceStart = IMG_Load(backGroundStart.c_str());
         textureA = SDL_CreateTextureFromSurface(renderer, tempSurfaceA);
-        textureStart = SDL_CreateTextureFromSurface(renderer, tempSurfaceStart);
+        SDL_CreateTextureFromSurface(renderer, tempSurfaceStart);
         SDL_FreeSurface(tempSurfaceA);
         SDL_FreeSurface(tempSurfaceStart);
         isOnce = false;

@@ -608,6 +608,60 @@ Handlers/HandlerSDL.cpp.s:
 	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Handlers/HandlerSDL.cpp.s
 .PHONY : Handlers/HandlerSDL.cpp.s
 
+Music/AbstractSoundHandler.obj: Music/AbstractSoundHandler.cpp.obj
+
+.PHONY : Music/AbstractSoundHandler.obj
+
+# target to build an object file
+Music/AbstractSoundHandler.cpp.obj:
+	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.obj
+.PHONY : Music/AbstractSoundHandler.cpp.obj
+
+Music/AbstractSoundHandler.i: Music/AbstractSoundHandler.cpp.i
+
+.PHONY : Music/AbstractSoundHandler.i
+
+# target to preprocess a source file
+Music/AbstractSoundHandler.cpp.i:
+	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.i
+.PHONY : Music/AbstractSoundHandler.cpp.i
+
+Music/AbstractSoundHandler.s: Music/AbstractSoundHandler.cpp.s
+
+.PHONY : Music/AbstractSoundHandler.s
+
+# target to generate assembly for a file
+Music/AbstractSoundHandler.cpp.s:
+	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Music/AbstractSoundHandler.cpp.s
+.PHONY : Music/AbstractSoundHandler.cpp.s
+
+Music/SoundHandlerSDL.obj: Music/SoundHandlerSDL.cpp.obj
+
+.PHONY : Music/SoundHandlerSDL.obj
+
+# target to build an object file
+Music/SoundHandlerSDL.cpp.obj:
+	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.obj
+.PHONY : Music/SoundHandlerSDL.cpp.obj
+
+Music/SoundHandlerSDL.i: Music/SoundHandlerSDL.cpp.i
+
+.PHONY : Music/SoundHandlerSDL.i
+
+# target to preprocess a source file
+Music/SoundHandlerSDL.cpp.i:
+	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.i
+.PHONY : Music/SoundHandlerSDL.cpp.i
+
+Music/SoundHandlerSDL.s: Music/SoundHandlerSDL.cpp.s
+
+.PHONY : Music/SoundHandlerSDL.s
+
+# target to generate assembly for a file
+Music/SoundHandlerSDL.cpp.s:
+	$(MAKE) -f CMakeFiles\StefSpace.dir\build.make CMakeFiles/StefSpace.dir/Music/SoundHandlerSDL.cpp.s
+.PHONY : Music/SoundHandlerSDL.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -698,6 +752,12 @@ help:
 	@echo ... Handlers/HandlerSDL.obj
 	@echo ... Handlers/HandlerSDL.i
 	@echo ... Handlers/HandlerSDL.s
+	@echo ... Music/AbstractSoundHandler.obj
+	@echo ... Music/AbstractSoundHandler.i
+	@echo ... Music/AbstractSoundHandler.s
+	@echo ... Music/SoundHandlerSDL.obj
+	@echo ... Music/SoundHandlerSDL.i
+	@echo ... Music/SoundHandlerSDL.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

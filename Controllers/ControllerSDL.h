@@ -5,6 +5,8 @@
 
 namespace SDL {
     class ControllerSDL : public gameLogic::AbstractController{
+
+        bool isRight,isUp,isLeft,isDown,isShoot;
     public:
         void pressLeft(bool isPressed) override;
         void pressRight(bool isPressed) override;
